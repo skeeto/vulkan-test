@@ -22,8 +22,8 @@ WinMainCRTStartup(void)
     if (!vkCreateInstance)
         REPORT(-1, "Vulkan drivers are malfunctioning "
                "(vkCreateInstance)");
-    void *instance;
-    int result = vkCreateInstance((int[]){1}, 0, &instance);
+    void *instance = 0;
+    int result = vkCreateInstance((int[16]){1}, 0, &instance);
     if (!instance || result != 0)
         REPORT(-1, "Vulkan drivers installed and functioning "
                "but are incompatible. An instance could not be created.");

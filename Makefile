@@ -1,5 +1,5 @@
 CC      = x86_64-w64-mingw32-gcc
-CFLAGS  = -std=c99 -Wall -Wextra -Os -s
+CFLAGS  = -std=c99 -Wall -Wextra -Os -s -ffreestanding
 LDFLAGS = -nostdlib -mwindows
 LDLIBS  = -lkernel32 -luser32
 
