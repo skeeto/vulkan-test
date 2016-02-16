@@ -27,6 +27,6 @@ WinMainCRTStartup(void)
     if (!instance || result != 0)
         REPORT(-1, "Vulkan drivers installed and functioning "
                "but are incompatible. An instance could not be created.");
-    REPORT(0, "Succssfully created a Vulkan instance.");
+    REPORT(0, "Successfully created a Vulkan instance.");
     return 0;
 }
