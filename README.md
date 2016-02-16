@@ -1,6 +1,6 @@
 # World's Smallest Vulkan Compatability Test
 
-Download: [vulkan_test.exe](https://github.com/skeeto/vulkan-test/releases/download/1.0.1/vulkan_test.exe)
+Download: [vulkan_test.exe](https://github.com/skeeto/vulkan-test/releases/download/1.0.2/vulkan_test.exe)
 
 This tiny program checks if your Windows system is capable of creating
 a Vulkan instance. If not, it will give a hint as to why (missing
